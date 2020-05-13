@@ -8,10 +8,10 @@
     height: 100px;
     position: fixed;
     z-index: 2;
-    height: 300px;
-    width: 20%;
+    height: 200px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
@@ -48,6 +48,8 @@
     width: 150px;
     left: 27% !important;
     height: 150px;
+    --logoVisiBility: visible ;
+    visibility: var(--logoVisiBility);
     display: flex;
     top: 0px !important;
     flex-direction: column;
@@ -138,7 +140,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 150%;
+  height: 1600px;
 
   .card {
     width: 300px;

@@ -312,10 +312,14 @@ header {
           margin-right: 10px;
         }
       }
+      .hide-card{
+        display: none;
+      }
+      
       .info-card {
         width: 100%;
-        visibility: hidden;
-        position: absolute;
+       // visibility: hidden;
+        //position: absolute;
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -353,14 +357,19 @@ header {
       }
     }
 
+    .hide-card{
+      display: none;
+    }
+    
+
     .drop-down:hover {
       .design {
         border: 2px solid chocolate;
         background-color: white;
         color: rgb(119, 51, 3);
       }
-      .info-card {
-        visibility: visible;
+      .hide-card{
+        display: block;
       }
     }
   }
